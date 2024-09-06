@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-operator2-sept6-database-config
+data:
+  VECTORDB_HOST: "test-operator2-sept6-database"
+  VECTORDB_PORT: ""

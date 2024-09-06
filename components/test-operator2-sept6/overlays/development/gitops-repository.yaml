@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-operator2-sept6-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/test-operator2-sept6-gitops
